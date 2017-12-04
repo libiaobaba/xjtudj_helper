@@ -23,6 +23,8 @@
         "*://xjtudj.edu.cn/*",
         "*://*.xjtudj.edu.cn/*",
         "*://*.xjtu.edu.cn/*",
+        "*://xajd.wkykt.com/*",
+        "*://*.xajd.wkykt.com/*",
         "cookies",
         "tabs"
     ]
