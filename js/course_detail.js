@@ -1,0 +1,1 @@
+console.log("cource_detail.js injected!")

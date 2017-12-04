@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "西交党建助手",
+    "version": "0.1.0",
+    "description": "看视频卡卡卡卡到掉线受不了了？不妨试试党建助手吧～",
+    "browser_action": {
+        "default_title": "西交党建助手",
+        "default_popup": "popup.html"
+    },
+    "homepage_url": "https://github.com/libiaobaba/xjtudj_helper",
+    "background": {
+        "scripts": [
+            "js/background.js"
+        ]
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://xjtudj.edu.cn/course/course_detail.do*"],
+            "js": ["js/course_detail.js"]
+        }
+    ],
+    "permissions": [
+        "*://xjtudj.edu.cn/*",
+        "*://*.xjtudj.edu.cn/*",
+        "*://*.xjtu.edu.cn/*",
+        "cookies",
+        "tabs"
+    ]
+}
