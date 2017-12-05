@@ -45,7 +45,8 @@
         "*://*.xjtu.edu.cn/*",
         "*://xajd.wkykt.com/*",
         "*://*.xajd.wkykt.com/*",
-        "cookies"
-        //"tabs"
+        "cookies",
+        "webRequest",
+        "webRequestBlocking"
     ]
 }
