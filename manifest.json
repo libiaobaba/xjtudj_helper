@@ -14,11 +14,7 @@
     },
     "homepage_url": "https://github.com/libiaobaba/xjtudj_helper",
     "background": {
-        "scripts": [
-            "js/jquery-3.2.1.min.js",
-            "js/utils.js",
-            "js/background.js"
-        ]
+        "page": "background.html"
     },
     "content_scripts": [
         {
