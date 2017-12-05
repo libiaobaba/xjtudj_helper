@@ -10,13 +10,33 @@
     "homepage_url": "https://github.com/libiaobaba/xjtudj_helper",
     "background": {
         "scripts": [
+            "js/jquery-3.2.1.min.js",
+            "js/utils.js",
             "js/background.js"
         ]
     },
     "content_scripts": [
         {
-            "matches": ["*://xjtudj.edu.cn/course/course_detail.do*"],
-            "js": ["js/course_detail.js"]
+            "matches": [
+                "*://xjtudj.edu.cn/course/course_detail.do*",
+                "*://xajd.wkykt.com/course/course_detail.do*"
+            ],
+            "js": [
+                "js/jquery-3.2.1.min.js",
+                "js/utils.js",
+                "js/course_detail.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://xjtudj.edu.cn/myzone/zone_studyPlanDetail.do*",
+                "*://xajd.wkykt.com/myzone/zone_studyPlanDetail.do*"
+            ],
+            "js": [
+                "js/jquery-3.2.1.min.js",
+                "js/utils.js",
+                "js/zone_studyPlanDetail.js"
+            ]
         }
     ],
     "permissions": [
@@ -25,7 +45,7 @@
         "*://*.xjtu.edu.cn/*",
         "*://xajd.wkykt.com/*",
         "*://*.xajd.wkykt.com/*",
-        "cookies",
-        "tabs"
+        "cookies"
+        //"tabs"
     ]
 }

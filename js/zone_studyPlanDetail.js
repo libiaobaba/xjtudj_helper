@@ -1,4 +1,4 @@
-let logPrefix = 'course_detail.js'
+let logPrefix = 'zone_studyPlanDetail.js'
 console.log("[%s] content_script injected", logPrefix)
 
 let query_params = getQueryParams();
