@@ -3,6 +3,11 @@
     "name": "西交党建助手",
     "version": "0.1.0",
     "description": "看视频卡卡卡卡到掉线受不了了？不妨试试党建助手吧～",
+    "icons": {
+        "16": "images/icon-16.png",
+        "48": "images/icon-48.png",
+        "128": "images/icon-128.png"
+    }
     "browser_action": {
         "default_title": "西交党建助手",
         "default_popup": "popup.html"
